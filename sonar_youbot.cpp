@@ -20,14 +20,6 @@ using namespace youbot;
 
 int main(int argc, char **argv) {
 
-	/*
-	//ROS call distance data
-	ros::init(argc, argv, "distance");
-  	ros::NodeHandle n;
-  	ros::Subscriber sub = n.subscribe("distance", 1000, distanceCallback);
- 	ros::spin();
-	*/
-	
 	
 	// configuration flags for different system configuration (e.g. base without arm)
 	bool youBotHasBase = false;
